@@ -1666,3 +1666,17 @@ input, select, textarea {
     	height:300px;
 		border-radius:150px;
 	}
+
+	.sombreado
+	{
+		-webkit-box-shadow: 2px 2px 5px #999;
+		-moz-box-shadow: 2px 2px 5px #999;
+		filter: shadow(color=#999999, direction=135, strength=2);
+	}
+
+	.sombreado img:hover
+    {
+      -moz-box-shadow: 0 0 10px #ccc;
+      -webkit-box-shadow: 0 0 10px #ccc;
+	  box-shadow: 0 0 10px #ccc;
+	}
